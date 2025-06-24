@@ -1,4 +1,4 @@
-# 🎮 Tic-Tac-Toe (React)
+# 🎮 Tic-Tac-Toe
 
 A simple 2-player Tic-Tac-Toe game built using **React** and **Vite**. Play locally, reset the board, and enjoy a clean, responsive UI.
 
