@@ -28,9 +28,14 @@ function Board() {
   }
 
   const winner = calculateWinner(squares);
-  const status = winner
-    ? 'Winner: ' + winner
-    : 'Next player: ' + (xIsNext ? 'X' : 'O');
+  const isDraw = !winner && squares.every(square => square !== null);
+
+const status = winner
+  ? 'Winner: ' + winner
+  : isDraw
+  ? 'Draw!'
+  : 'Next player: ' + (xIsNext ? 'X' : 'O');
+
 
   return (
     <>
